@@ -10,6 +10,39 @@
   li + li {
     margin-top: .25rem;
   }
+
+  figure {
+    margin: 0rem;
+    margin-bottom: 1rem;
+    padding: 0rem;
+
+    pre {
+      padding: .5rem;
+    }
+
+    code {
+      td.gutter.gl {
+        width: 1%;
+      }
+
+      table {
+         margin-bottom: 0;
+
+        pre {
+          padding: .5rem;
+        }
+      }
+
+    }
+  }
+
+  figure.lineno-container {
+    pre {
+      padding: 0rem;
+    }
+  }
+
+
 }
 
 // Blog post or page title
