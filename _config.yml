@@ -1,11 +1,14 @@
 # Permalinks
 permalink:           pretty
 
+markdown: kramdown
+highlighter: rouge
+
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
+title:               The Sources Mouth
+tagline:             more pastebin than blog
+url:                 http://sourcesmouth.co.uk/
+#paginate:            1
 baseurl:             ""
 
 # Assets
@@ -17,14 +20,22 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+#  name:              Mark Otto
+#  url:               https://twitter.com/mdo
+#  email:             markdotto@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/RickMoynihan
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 # Gems
 gems:

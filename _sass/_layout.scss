@@ -10,6 +10,20 @@
   margin-right: auto;
 }
 
+
+ul.posts {
+   list-style-type: none;
+   padding-left: 0;
+}
+
+ul.posts li time.post-date {
+  display: inline;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+}
+
+
 footer {
   margin-bottom: 2rem;
 }
